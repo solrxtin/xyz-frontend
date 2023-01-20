@@ -441,4 +441,4 @@ export const abi = [
   },
 ];
 
-export const xyzcontractAddress = "0xc80E2088e1d7A39e56C7a14C749De1e2bab57be7";
+export const xyzContractAddress = "0xc80E2088e1d7A39e56C7a14C749De1e2bab57be7";

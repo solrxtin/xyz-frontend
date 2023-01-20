@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css"
 import {ethers} from "ethers"
-import {abi, xyzcontractAddress} from "../constants"
+import {abi, xyzContractAddress } from "../constants"
 import { useState, useEffect } from 'react'
 import { useNotification } from 'web3uikit'
 
@@ -30,7 +30,7 @@ const New = () => {
 
     const provider = new ethers.providers.WebSocketProvider(process.env.NEXT_PUBLIC_ALCHEMY_WEBSOCKET_URL)
    
-    const xyzcontract = new ethers.Contract(xyzcontractAddress, abi, provider)
+    const xyzcontract = new ethers.Contract(xyzContractAddress, abi, provider)
 
     const dispatch = useNotification()
 
