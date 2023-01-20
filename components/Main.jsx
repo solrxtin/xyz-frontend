@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { useNotification } from 'web3uikit'
 
 
-const New = () => {
+const Main = () => {
 
     const [_name, setName] = useState("")
     const [_symbol, setSymbol] = useState("")
@@ -165,4 +165,4 @@ const New = () => {
     )
 }
 
-export default New
+export default Main
